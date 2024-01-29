@@ -20,4 +20,4 @@ Lors de la création de chaque élément li, concaténez une chaîne de caractè
 
 - Ajoutez un eventListener au bouton pour appeler la fonction ajouterTache lorsqu'il est cliqué.
 
-- Ajoutez un eventListener au double click pour permettre la suppression d'une tâche directement depuis l'élément li.
+- Ajoutez un eventListener au double click pour permettre la suppression d'une tâche directement depuis l'élément li. Pour ce faire vous allez devoir selectionner tous les `li` de `ul` avec un `querySelectorAll` et faire ajouter un écouteur d'évenement a tous les enfants.
